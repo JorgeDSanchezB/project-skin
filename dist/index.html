@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>Vision — Streamline the shop virtual</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Modern e-commerce platform skin — customizable landing page template.">
+
+<!-- =====================================================================
+     1. FONTS  (self-host recommended for production)
+     ===================================================================== -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+
+<!-- =====================================================================
+     2. SKIN THEME  (CSS variables define the visual identity)
+     ===================================================================== -->
+
+<!-- =====================================================================
+     3. SKIN CONFIG  (single source of truth for all content)
+     ===================================================================== -->
+
+<!-- =====================================================================
+     4. SKIN ENGINE  (reads config.js, drives layout & interactions)
+     ===================================================================== -->
+
+<!-- =====================================================================
+     5. INTRO CLASS  (armed before first paint; JS removes it)
+     ===================================================================== -->
+<script>
+document.documentElement.classList.add('intro');
+setTimeout(function(){ document.documentElement.classList.remove('intro'); }, 4000);
+</script>
+  <script type="module" crossorigin src="/assets/index-aRQse-Rr.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BYwU1op5.css">
+</head>
+<body>
+
+<div class="stage">
+
+  <!-- Background + starfield live OUTSIDE the scaled canvas: the star offsets
+       are viewport units, so they must not be multiplied by the canvas scale. -->
+  <div class="bg"></div>
+  <div class="stars" id="stA"></div>
+  <div class="stars" id="stB"></div>
+
+  <div class="canvas" id="canvas">
+
+    <div class="showcase">
+      <div class="ring" id="ring"></div>
+    </div>
+
+    <div class="browser" id="browser">
+      <div class="bar">
+        <div class="dots">
+          <i style="background:#ee5c62"></i>
+          <i style="background:#f6b719"></i>
+          <i style="background:#12c02f"></i>
+        </div>
+        <div class="omni">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.8-3.8"></path>
+          </svg>
+          <span>Shop Focused - Skin Care</span>
+        </div>
+        <div class="tools">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 16V4m0 0L8 8m4-4 4 4"></path><path d="M4 15v5h16v-5"></path>
+          </svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" aria-hidden="true">
+            <path d="M12 5v14M5 12h14"></path>
+          </svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 3 3 8l9 5 9-5-9-5Z" fill="#fff" opacity=".95"></path>
+            <path d="M3 13l9 5 9-5" opacity=".55"></path>
+          </svg>
+        </div>
+      </div>
+
+      <div class="page">
+        <div class="ann">
+          <span>Moisturized daily at home</span>
+          <u style="left:20px">&#8249;</u>
+          <u style="right:20px">&#8250;</u>
+        </div>
+        <div class="shoplogo"><em>GLOW</em><i>SKIN CARE</i></div>
+        <div class="shopicons">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.8-3.8"></path>
+          </svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <circle cx="12" cy="8" r="4"></circle><path d="M4.5 21c0-4.2 3.4-6.6 7.5-6.6s7.5 2.4 7.5 6.6"></path>
+          </svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round" aria-hidden="true">
+            <path d="M5.5 8h13l-1.2 12H6.7L5.5 8Z"></path><path d="M9 8V6.2A3 3 0 0 1 15 6.2V8"></path>
+          </svg>
+        </div>
+
+        <div class="pagebody">
+          <div class="pghero">
+            <img alt="Warm amber and ivory skincare collection in golden morning light"
+                 src="">
+            <div class="scrim"></div>
+            <!-- the banner is composed with its subject on the RIGHT and an empty
+                 left third, so this left-to-right scrim carries the copy -->
+            <div class="copy">
+              <u>Just added</u>
+              <em>Let your beauty<br>be sacred.</em>
+              <i>EXPLORE TODAY</i>
+            </div>
+          </div>
+
+          <div class="pgsec"><b>Best reviewed</b><u>see more</u></div>
+
+          <div class="pggrid">
+            <!-- populated by app.js from config.js -->
+          </div>
+
+          <div class="pgstrip">
+            <!-- populated by app.js from config.js -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="nav" id="nav">
+      <svg class="mark" viewBox="0 0 48 48" aria-hidden="true">
+        <defs>
+          <linearGradient id="sw" x1="8" y1="8" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#8ef4ff"></stop>
+            <stop offset=".5" stop-color="#35d8ff"></stop>
+            <stop offset="1" stop-color="#0a86d8"></stop>
+          </linearGradient>
+          <linearGradient id="sw2" x1="40" y1="10" x2="10" y2="40">
+            <stop offset="0" stop-color="#a6f7ff"></stop>
+            <stop offset="1" stop-color="#0f9ae0" stop-opacity=".25"></stop>
+          </linearGradient>
+        </defs>
+        <g transform="rotate(-32 24 24)">
+          <ellipse cx="24" cy="24" rx="18.5" ry="9.6" fill="none" stroke="url(#sw2)"
+            stroke-width="3.1" stroke-linecap="round" stroke-dasharray="58 30" stroke-dashoffset="14"></ellipse>
+          <circle cx="41.4" cy="20.6" r="3.1" fill="#bff6ff"></circle>
+        </g>
+        <circle cx="24" cy="24" r="6.6" fill="url(#sw)"></circle>
+        <circle cx="24" cy="24" r="2.6" fill="#fff"></circle>
+      </svg>
+
+      <div class="wm">
+        <span class="kick">SHOPS</span>
+        <span class="name" id="wmName">VERTEX</span>
+      </div>
+
+      <button class="burger" id="burger" type="button" aria-label="Opens menu"
+        aria-expanded="false" aria-controls="navmenu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="navmenu" id="navmenu">
+        <div class="links" id="links">
+          <!-- populated by app.js from config.js -->
+        </div>
+        <a class="btn" href="#" id="ctaBtn"><span id="ctaLabel">Build new shop</span></a>
+      </div>
+    </nav>
+
+    <div class="stack">
+      <div class="badge">
+        <i>
+          <svg viewBox="5 1 14 22" preserveAspectRatio="none" fill="rgba(16,112,152,.72)"
+            stroke="rgba(190,236,255,.6)" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true">
+            <path d="M13.9 1.6 5.5 13.6a.7.7 0 0 0 .6 1.1h4.2l-1 7.7a.7.7 0 0 0 1.25.55l8.3-12.1a.7.7 0 0 0-.6-1.1h-4.2l1-7.7a.7.7 0 0 0-1.25-.55Z"></path>
+          </svg>
+        </i>
+        <b id="badgeTxt">Professionals at store startup</b>
+      </div>
+
+      <div class="h1 l1" id="h1a">Streamline the shop</div>
+      <div class="h1" id="h1b">Process</div>
+      <p class="sub s1" id="sub1"><b>Restructuring store systems / <span class="nb">E-commerce</span></b> orchestrated with</p>
+      <p class="sub" id="sub2">checkouts, performance, a sustainable expansion.</p>
+
+      <a class="btn cta2" href="#" id="vpBtn"><span id="vpLabel">See prices</span></a>
+    </div>
+
+  </div>
+
+  <a class="wa" href="#" aria-label="WhatsApp">
+    <svg viewBox="0 0 32 32" fill="#fff" aria-hidden="true">
+      <path d="M16.04 3C8.9 3 3.1 8.8 3.1 15.94c0 2.28.6 4.5 1.73 6.46L3 29l6.76-1.77a12.9 12.9 0 0 0 6.28 1.6h.01c7.13 0 12.93-5.8 12.93-12.94 0-3.45-1.34-6.7-3.78-9.14A12.83 12.83 0 0 0 16.04 3Zm0 23.66h-.01a10.7 10.7 0 0 1-5.45-1.49l-.39-.23-4.01 1.05 1.07-3.91-.25-.4a10.66 10.66 0 0 1-1.64-5.7c0-5.92 4.82-10.74 10.75-10.74 2.87 0 5.56 1.12 7.59 3.15a10.66 10.66 0 0 1 3.14 7.6c0 5.92-4.82 10.67-10.8 10.67Zm5.9-8a37.6 37.6 0 0 1-1.87-.87c-.33-.13-.57-.2-.8.19-.24.4-.93 1.16-1.14 1.4-.21.24-.42.27-.77.09a8.7 8.7 0 0 1-2.56-1.58 9.6 9.6 0 0 1-1.77-2.2c-.19-.32-.02-.5.14-.66.14-.14.33-.38.5-.58.16-.2.21-.33.32-.55.1-.22.05-.41-.03-.58-.08-.16-.72-1.75-1-2.4-.26-.62-.53-.54-.72-.55h-.68c-.22 0-.6.09-.9.42-.32.34-1.2 1.16-1.2 2.83s1.22 3.28 1.4 3.5c.16.22 2.4 3.66 5.8 5.02.81.34 1.44.54 1.93.7.83.26 1.58.22 2.18.13.66-.1 2.05-.84 2.34-1.65.29-.81.29-1.5.2-1.65-.08-.14-.3-.22-.62-.38Z"></path>
+    </svg>
+  </a>
+</div>
+</body>
+</html>

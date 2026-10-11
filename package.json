@@ -1,0 +1,26 @@
+{
+  "name": "modelo-web-1bloque-movil",
+  "version": "1.0.0",
+  "description": "Skin/template de landing page e-commerce 3D — configurable via config.js, tema vía CSS variables, build con Vite.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "echo \"No linter configured yet\"",
+    "format": "echo \"No formatter configured yet\""
+  },
+  "keywords": [
+    "skin",
+    "template",
+    "landing-page",
+    "ecommerce",
+    "3d-carousel",
+    "vite"
+  ],
+  "author": "Jorge Sanchez <jorgedsb100@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
